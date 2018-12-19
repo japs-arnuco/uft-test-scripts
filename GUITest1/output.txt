@@ -1,0 +1,45 @@
+Warning (-17893): Unknown script language	[MsgId: MWAR-17893]
+Virtual User Script started at: 10/31/2018 8:02:45 AM	[MsgId: MMSG-15967]
+Running Vuser...	[MsgId: MMSG-15964]
+Starting iteration 1.	[MsgId: MMSG-15968]
+Starting action Action1.	[MsgId: MMSG-15919]
+SystemUtil	[MsgId: MMSG-23001]
+Run "C:\Program Files\Internet Explorer\iexplore.exe",1	[MsgId: MMSG-23001]
+Browser("MSN | Outlook, Office,").Page("MSN | Outlook, Office,")	[MsgId: MMSG-23001]
+Browser("MSN | Outlook, Office,"). Navigate to http://www.google.com/  Target Frame: _top	[MsgId: MMSG-23001]
+Browser("MSN | Outlook, Office,").Page("Google").WebEdit("Search"). Cannot identify the object "Search" (of class WebEdit).
+Verify that this object's properties match an object currently displayed in your application.	[MsgId: MMSG-23001]
+Browser("MSN | Outlook, Office,").Page("Google").WebEdit("Search"). Object's physical description:
+Type = text
+Mercury Class = WebEdit
+Html Tag = INPUT
+_xpath = //FORM[@id="tsf"]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/INPUT[@role="combobox"][1]
+|rows = 0
+placeholder = 
+Name = q
+Max Length = 2048
+Html Id = 
+default value = 
+DHTML Class = gLFyf gsfi
+acc_name = Search
+	[MsgId: MMSG-23001]
+Error:  Browser("MSN | Outlook, Office,").Page("Google").WebEdit("Search") - Object's physical description:
+Type = text
+Mercury Class = WebEdit
+Html Tag = INPUT
+_xpath = //FORM[@id="tsf"]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/INPUT[@role="combobox"][1]
+|rows = 0
+placeholder = 
+Name = q
+Max Length = 2048
+Html Id = 
+default value = 
+DHTML Class = gLFyf gsfi
+acc_name = Search
+	[MsgId: MERR-23001]
+Error:  Line(4): Browser("MSN | Outlook, Office,") - Cannot identify the object "Search" (of class WebEdit).
+Verify that this object's properties match an object currently displayed in your application.	[MsgId: MERR-23001]
+Ending action Action1.	[MsgId: MMSG-15918]
+Ending iteration 1.	[MsgId: MMSG-15965]
+Ending Vuser...	[MsgId: MMSG-15966]
+Vuser Terminated.	[MsgId: MMSG-15963]

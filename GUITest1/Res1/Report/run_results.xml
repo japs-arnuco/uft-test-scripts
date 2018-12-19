@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "C:\Program Files\Internet Explorer\iexplore.exe",1</Name>
+    <StartTime>2018-10-31 03:26:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>f64aa20a51c54b4aaf2ae823f8703400</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>MSN | Outlook, Office,.Sync</Name>
+    <Description />
+    <StartTime>2018-10-31 03:26:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[MSN | Outlook, Office,]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[MSN | Outlook, Office,]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+      </TestObject>
+      <IconKey>0ef17796f19a4dbc92f3048d4821cb48</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>MSN | Outlook, Office,</Name>
+    <Description>Page</Description>
+    <StartTime>2018-10-31 03:26:51</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[MSN | Outlook, Office,]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[MSN | Outlook, Office,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>0ef17796f19a4dbc92f3048d4821cb48</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>MSN | Outlook, Office,.Navigate</Name>
+    <Description>Navigate to http://www.google.com/&lt;br&gt;Target Frame: _top&lt;br&gt;Post Data: &lt;br&gt;HTTP Headers: </Description>
+    <StartTime>2018-10-31 03:26:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[MSN | Outlook, Office,]]></Name>
+          </Object>
+        </Path>
+        <Operation>Navigate</Operation>
+        <OperationData><![CDATA[Navigate to http://www.google.com/<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></OperationData>
+      </TestObject>
+      <IconKey>743bacba83da4beb863cbd1e330f388b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>MSN | Outlook, Office,</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2018-10-31 03:26:51</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[MSN | Outlook, Office,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>743bacba83da4beb863cbd1e330f388b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>WebList</Name>
+    <ErrorText>Cannot identify the specified item of the WebList object. Confirm that the specified item is included in the object's item collection.</ErrorText>
+    <Description>Cannot&amp;nbsp;identify&amp;nbsp;the&amp;nbsp;specified&amp;nbsp;item&amp;nbsp;of&amp;nbsp;the&amp;nbsp;WebList&amp;nbsp;object.&amp;nbsp;Confirm&amp;nbsp;that&amp;nbsp;the&amp;nbsp;specified&amp;nbsp;item&amp;nbsp;is&amp;nbsp;included&amp;nbsp;in&amp;nbsp;the&amp;nbsp;object's&amp;nbsp;item&amp;nbsp;collection.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = WebList&lt;br&gt;Html Tag = UL&lt;br&gt;_xpath = //FORM[@id="tsf"]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/UL[@role="listbox"][1]&lt;br&gt;|Visible Items = 10&lt;br&gt;Visible = -1&lt;br&gt;Name = select&lt;br&gt;Items Count = 10&lt;br&gt;Html Id = &lt;br&gt;first item = uft&lt;br&gt;DHTML Class = erkvQe&lt;br&gt;acc_name = &lt;br&gt;</Description>
+    <StartTime>2018-10-31 03:26:55</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Browser("MSN | Outlook, Office,").Page("Google").WebList("WebList").Select "uft dental"]]></Scripts>
+          <LineNo><![CDATA[4]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[MSN | Outlook, Office,]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Google]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[WebList]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot&nbsp;identify&nbsp;the&nbsp;specified&nbsp;item&nbsp;of&nbsp;the&nbsp;WebList&nbsp;object.&nbsp;Confirm&nbsp;that&nbsp;the&nbsp;specified&nbsp;item&nbsp;is&nbsp;included&nbsp;in&nbsp;the&nbsp;object's&nbsp;item&nbsp;collection.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[select]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[UL]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>33230b4a5e044a98a1a1b407b69b56bd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\f4af5d93-68ad-4471-860c-04cef45354a8.jpeg" highlight="0,0,833,537" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>MSN | Outlook, Office,</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2018-10-31 03:26:55</StartTime>
+    <Duration>11</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[MSN | Outlook, Office,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>743bacba83da4beb863cbd1e330f388b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>WebList</Name>
+    <ErrorText>Cannot identify the specified item of the WebList object. Confirm that the specified item is included in the object's item collection.</ErrorText>
+    <Description>Cannot&amp;nbsp;identify&amp;nbsp;the&amp;nbsp;specified&amp;nbsp;item&amp;nbsp;of&amp;nbsp;the&amp;nbsp;WebList&amp;nbsp;object.&amp;nbsp;Confirm&amp;nbsp;that&amp;nbsp;the&amp;nbsp;specified&amp;nbsp;item&amp;nbsp;is&amp;nbsp;included&amp;nbsp;in&amp;nbsp;the&amp;nbsp;object's&amp;nbsp;item&amp;nbsp;collection.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = WebList&lt;br&gt;Html Tag = UL&lt;br&gt;_xpath = //FORM[@id="tsf"]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/UL[@role="listbox"][1]&lt;br&gt;|Visible Items = 10&lt;br&gt;Visible = -1&lt;br&gt;Name = select&lt;br&gt;Items Count = 10&lt;br&gt;Html Id = &lt;br&gt;first item = uft&lt;br&gt;DHTML Class = erkvQe&lt;br&gt;acc_name = &lt;br&gt;</Description>
+    <StartTime>2018-10-31 03:27:06</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Browser("MSN | Outlook, Office,").Page("Google").WebList("WebList").Select "uft dental"]]></Scripts>
+          <LineNo><![CDATA[4]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[MSN | Outlook, Office,]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Google]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[WebList]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot&nbsp;identify&nbsp;the&nbsp;specified&nbsp;item&nbsp;of&nbsp;the&nbsp;WebList&nbsp;object.&nbsp;Confirm&nbsp;that&nbsp;the&nbsp;specified&nbsp;item&nbsp;is&nbsp;included&nbsp;in&nbsp;the&nbsp;object's&nbsp;item&nbsp;collection.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[select]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[UL]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>33230b4a5e044a98a1a1b407b69b56bd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\73c2054a-b5c6-4c44-8052-692173a571c7.jpeg" highlight="0,0,833,537" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2018-10-31 03:27:19</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>ac8e937cc3f344eeb779fe8bbc8b30c6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>MSN | Outlook, Office,</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2018-10-31 03:27:06</StartTime>
+    <Duration>13</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[MSN | Outlook, Office,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>743bacba83da4beb863cbd1e330f388b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2018-10-31 03:26:46</StartTime>
+    <Duration>33</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>fd6cd6dbae194a46a1b13656d6143f53</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-10-31 03:26:46</StartTime>
+    <Duration>33</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>5d3f185d789846e4b4f523916764f229</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest1</Name>
+    <ToolName>HPE Unified Functional Testing</ToolName>
+    <ToolVersion>14.03</ToolVersion>
+    <Description />
+    <StartTime>2018-10-31 03:26:36</StartTime>
+    <Duration>43</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>4a34134641024b24a654fea0c9b32f0b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-04:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>PRESTOIIT3\lucy.yang</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU           X5650  @ 2.67GHz</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>2048</TotalMemory>
+      <HostName>prestoiit3.net\PRT3SMFP01</HostName>
+      <OSInfo>Windows 2012 R2</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2018-10-31 03:26:36</RunStartTime>
+    <Timezone>-04:00:00</Timezone>
+    <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.03</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>
